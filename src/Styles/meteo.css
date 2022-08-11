@@ -1,0 +1,105 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#currentlocation{
+    margin-left: 1vw;
+}
+#page-meteo{
+    height: 100vh;
+    display: flex;
+    background: url(../images/gradient.jpg);
+    background-size: 105vw;
+    overflow: hidden;
+}
+.meteopage{
+    width: 100%;
+}
+.top{
+    justify-content: flex-end;
+    margin: 1vw 0 0 70vw;
+    width:0%;
+}
+.top input{
+    border-radius: 1vw;
+    height: 2vw;
+    width: 12vw;
+    background: rgba(50, 50, 120, 0.7);
+    padding-left: 1vw;
+}
+::placeholder{
+    color: white;
+
+}
+.liste-meteo{
+    color: white;
+    opacity: 100%;
+    text-align: center;
+}
+.liste-meteo li{
+    margin: 1vw 0 1vw 0; 
+}
+.navmeteo{
+    width: 13vw;
+    background: rgba(50, 50, 120, 0.7);
+}  
+.contentmeteo{
+    height: 100%;
+    width: 100%;
+}
+.location{
+    margin: 1vw 0 0vw 9vw;
+    font-size: 4vw;
+
+}
+.meteo{
+    height: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1vw;
+    margin: 0vw 8vw 8vw 8vw;
+    border: solid 1px white;
+}
+.boxmeteo{
+    height: 14vw;
+    background: rgba(50, 50, 120, 0.7);
+    margin: auto;
+    border-radius: 1vw;
+}
+.middlemeteo{
+    display: flex;
+    width: 100%;
+    font-size: 5vw;
+}
+.middlemeteo p{
+    margin: 3.5vw 1vw 1vw 3vw;
+}
+.feellike{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vw 1vw;
+    font-size: 1.5vw;
+}
+.humidity, .pressure{
+    background: rgba(50, 50, 120, 1);
+    width: 90%;
+    height: 40%;
+    margin: 1vw 1vw 1vw 1vw;
+    border-radius: 1vw;
+}
+.banner{
+    margin-left: 0.8vw;
+}
+#percentagehumidity{
+    font-size: 3vw;
+    text-align: center;
+}
+#currentmeteo{
+    width: 40vw;
+}
+#airhumidity{
+    width: 24vw;
+}
+#wind, #airquality, #soleil{
+    width: 20vw;
+}
